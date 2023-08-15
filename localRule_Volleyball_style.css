@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+}
+
+h1{
+  background-color: lightgreen;
+  text-align: center; 
+}
+
+image{
+  text-align: center;
+  vertical-align:middle;
+}
+
+footer{
+  background: lightgreen;  
+  text-align: center;
+  margin: 8px;
+}

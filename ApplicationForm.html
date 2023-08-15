@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ApplicationForm_style.css">
+  <title>応募フォーム</title>
+  <link rel="icon" href="logo.JPG">
+</head>
+<body>
+  <h1>応募フォーム</h1>
+  <form>
+    <div>
+      <label> 
+        名前
+        <input type="text">
+      </label>
+    </div>
+    <div>
+      <label>
+        性別
+        <select>
+          <option>男性</option>
+          <option>女性</option>
+          <option>その他</option> 
+        </select>
+      </label>
+    </div>
+    <div>
+      <fieldset>
+        <legend>
+          経験歴
+        </legend>
+        <label>
+          <input type="radio" name="experience">
+          現役・大学・高校
+        </label>
+        <label>
+          <input type="radio" name="experience">
+          中学生・小学生
+        </label>
+        <label>
+          <input type="radio" name="experience">
+          体育の授業程度
+        </label>
+        <label>
+          <input type="radio" name="experience">
+          初参加
+        </label>
+      </fieldset>
+    </div>
+    <div>
+      <label>
+        紹介者
+        <textarea></textarea>
+      </label>
+    </div>
+    <div>
+      <fieldset>
+        <legend>
+          2023年度開催オフ会で参加した(予定)オフ会
+        </legend>
+        <label>
+          <input type="checkbox">
+          4/2	球技大会
+        </label>
+        <label>
+          <input type="checkbox">
+          4/30 バレー
+        </label>
+        <label>
+          <input type="checkbox">
+          5/13 バレー
+        </label>
+        <label>
+          <input type="checkbox">
+          5/20 球技大会
+        </label>
+        <label>
+          <input type="checkbox">
+          6/25 バレー
+        </label>
+        <label>
+          <input type="checkbox">
+          8/12 バレー
+        </label>
+        <label>
+          <input type="checkbox">
+          9/3 キックベース
+        </label>
+        <label>
+          <input type="checkbox">
+          9/23 バレー
+        </label>
+        <label>
+          <input type="checkbox">
+          11/18 球技大会
+        </label>
+      </fieldset>
+    </div>
+    <div>
+      <button>
+        送信
+      </button>
+    </div>
+  </form>
+</body>
+</html>
